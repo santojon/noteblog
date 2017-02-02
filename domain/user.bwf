@@ -1,0 +1,9 @@
+User: {
+    firstName: string,
+    lastName: string,
+    username: string,
+    password: Password,
+    email: string,
+    gender: string,
+    image: string
+}
