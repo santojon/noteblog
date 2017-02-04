@@ -1,1 +1,3 @@
-// The mappings to database goes here
+dataPool.map(
+    User
+)

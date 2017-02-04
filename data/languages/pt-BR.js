@@ -1,3 +1,4 @@
 var _language = {
-    Test: 'Teste'
+    Test: 'Teste',
+    User: 'Usuário'
 }
