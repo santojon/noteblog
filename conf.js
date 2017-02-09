@@ -24,11 +24,15 @@ var appConfig = {
         dependencies: [
             norse.bwf.full,
             norse.bhdr,
-            norse.frgg
+            norse.frgg,
+            norse.hdllr,
+            norse.loki
         ],
         dataPool: 'Bhdr',
         classLoader: 'Bwf',
-        pagesLoader: 'Frgg',
+        pageLoader: 'Frgg',
+        securityWatcher: 'Hdllr',
+        session: true,
         bwfDomain: true,
         bootstrap: true,
         debug: {

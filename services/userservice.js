@@ -1,9 +1,14 @@
 with (Sgfd.Base) {
+    /**
+     * The service that process and manage Users related data
+     */
     var UserService = new Sgfd.Service({
         metaName: 'UserService',
-        index: function() {
-            // A function to be used in controllers etc
-            // Put it into 'services' folder of your app
+        /**
+         * Get all the users from DB
+         */
+        getAllUsers() {
+            return User.findAll()
         }
     });
 };

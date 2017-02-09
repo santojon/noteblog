@@ -1,0 +1,10 @@
+<!-- Show details from user -->
+<div class="home-content container-fluid">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <h2 class="home_upper">__('User'): {{ user.firstName }} {{ user.lastName }}</h2>
+    </div>
+
+    <div id="home-content-dynamic" class="col-md-12 col-sm-12 col-lg-12">
+        __('Username'): {{ user.username || <code>not registered</code> }}
+    </div>
+</div>

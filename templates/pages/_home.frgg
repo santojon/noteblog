@@ -1,10 +1,11 @@
+<!-- Home page -->
 <div id="home" class="main container">
     <div class="hs-logo-full">
     </div>
 
     <div class="home-content container-fluid">
         <div class="col-md-12 col-sm-12 col-lg-12">
-            <h2 class="home_upper">__('Test')</h2>
+            <h2 class="home_upper">__('Home')</h2>
         </div>
 
         <div id="home-content-dynamic" class="col-md-12 col-sm-12 col-lg-12">

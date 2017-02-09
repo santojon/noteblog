@@ -1,0 +1,16 @@
+<!-- List users -->
+<div class="home-content container-fluid">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <h2 class="home_upper">__('Users')</h2>
+    </div>
+
+    {% for user in users =>
+        <div class="col-md-12 col-sm-12 col-lg-12">
+            <h3 class="home_upper">__('User'): {{ user.firstName }} {{ user.lastName }}</h3>
+        </div>
+
+        <div id="{{ user.username || unreg_usrn }}" class="col-md-12 col-sm-12 col-lg-12">
+            __('Username'): {{ user.username || <code>not registered</code> }}
+        </div>
+    %}
+</div>
